@@ -1,0 +1,66 @@
+
+html
+            {
+                background-color: lightgray;
+            width: 800px; 
+            margin-left: calc(50% - 400px);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }   
+header
+            {
+            width: 800px;
+            }
+header > img{
+       height: 50px;
+        margin-left: 40px;
+             }
+nav         {
+             width: 400px; 
+             float: right; 
+             margin: 10px 20px 10px 20px;
+            }
+a   {
+            
+            margin: 5px 10px 10px 10px; 
+            text-decoration: none;
+            color: black; 
+            font-size: 10px;
+            text-transform: capitalize;
+            }
+button
+        {
+            padding: 0px 15px 0px 15px; 
+            margin: 10px 20px 10px 20px; 
+            border: 2px; 
+            border-style: solid; 
+            border-radius: 10px; 
+            font-size: 10px; 
+            text-transform: capitalize;
+        }
+
+main        {
+            display: inline-block;
+             margin-left: 60px;
+              width:600px;
+            }
+ main > img{
+            width: 350px; 
+            float: right;
+
+            }
+main >  div{
+        width: 250px; 
+        text-align: left;
+            }
+main> div > h1
+            {
+            font-size: 45px; 
+            margin-top: 60px;
+            margin-bottom: 0;
+            } 
+main> div > h4 
+            {
+            font-size: 25px;
+            margin: 0 10px 0 0;
+            }   
