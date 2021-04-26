@@ -1,66 +1,77 @@
 
-html
+body
             {
-                background-color: lightgray;
-            width: 800px; 
-            margin-left: calc(50% - 400px);
+                margin: 0;
+            background-color: lightgray;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+            color: #9e9e9e;
             }   
 header
             {
+            display: inline-block;
             width: 800px;
+            margin-top: 40px;
+            margin-left: calc((100% - 800px) / 2);
             }
 header > img{
-       height: 50px;
-        margin-left: 40px;
+       height: 60px;
+        float: left;
              }
 nav         {
-             width: 400px; 
+             
              float: right; 
-             margin: 10px 20px 10px 20px;
+             margin: 8px;
             }
 a   {
             
-            margin: 5px 10px 10px 10px; 
+            display: inline-block;
+            float: left;
+            padding: 8px;
+            font-size: 18px;
+            line-height: 20px;
+            color: #9e9e9e;
             text-decoration: none;
-            color: black; 
-            font-size: 10px;
+            border: 4px solid transparent;
+            border-radius: 22px;
             text-transform: capitalize;
             }
-button
-        {
-            padding: 0px 15px 0px 15px; 
-            margin: 10px 20px 10px 20px; 
-            border: 2px; 
-            border-style: solid; 
-            border-radius: 10px; 
-            font-size: 10px; 
-            text-transform: capitalize;
-        }
+nav > a:last-child {
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-left: 8px;
+                text-transform: uppercase;
+                border-color: #9e9e9e;
+              }
 
 main        {
             display: inline-block;
-             margin-left: 60px;
-              width:600px;
+            width:800px;
+            margin-top: 40px;
+            margin-left: calc(50% - 400px);
+              
             }
  main > img{
-            width: 350px; 
+            display: inline-block;
+            width: 45%;
+            margin-right: 3%;
             float: right;
-
             }
-main >  div{
-        width: 250px; 
-        text-align: left;
-            }
+main >  div {
+            display: inline-block;
+            width: 40%;
+            margin-left: 3%;
+            margin-top: 50px;
+            float: left;
+  }
 main> div > h1
             {
-            font-size: 45px; 
-            margin-top: 60px;
-            margin-bottom: 0;
+            display: inline-block;
+            margin: 0;
+            font-size: 80px;
             } 
-main> div > h4 
+main> div > p 
             {
+            display: inline-block;
+            margin: 0;
             font-size: 25px;
-            margin: 0 10px 0 0;
             }   
